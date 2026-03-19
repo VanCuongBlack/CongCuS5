@@ -28,7 +28,7 @@ jobs:
           context: .
           push: true
           tags: |
-            vancuong335:latest
-            vancuong335:${{ github.sha }}
+            vancuong0335/tranvancuong:latest
+            vancuong0335/tranvancuong:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
